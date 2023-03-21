@@ -1,0 +1,330 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+#navBar{
+    height: 150px;
+}
+#navItem1 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem2 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem3 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem4 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+
+.banner-section-bg-container {
+    background-image: url("./blur-hospital.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+.bannerInsideImg{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    position: relative;
+    margin-left: 280px;
+    bottom: 146px;
+    width: 80vw;
+    height: 100vh;
+
+}
+
+.banner-heading {
+    color: black;
+    font-family: "Roboto";
+    font-size: 45px;
+    font-weight: 300;
+    position: relative;
+    top: 250px;
+    
+}
+
+.banner-caption {
+    color: black;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.text-center h1{
+    color: #009ba2;
+    font-size: 70px;
+    font-weight: 700;
+    position: relative;
+    right: 350px;
+    
+    
+}
+.text-center p{
+    position: relative;
+    font-size: 10px;
+    right: 300px;
+    text-align: left;
+    margin-left: 400px;
+    top: 250px;
+    
+}
+.bookAppointment{
+    background-color: white;
+    width: 80vw;
+    height: 25vh;
+    padding: 10px;
+    position: absolute;
+    top: 750px;
+    left: 137px;
+    margin: auto;
+}
+input{
+    width: 320px;
+    height: 40px;
+}
+.bookAppointmentBtn{
+    background-color: #009ba2;
+    height: 50px;
+    color: white;
+    border: none;
+}
+
+.wcu-section {
+    background-color: #f9fbfe;
+}
+
+.wcu-section-heading1 {
+    color: red;
+    font-family: "Roboto";
+    font-size: 10x;
+    font-weight: 300;
+}
+
+.wcu-section-description1 {
+    color: red;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.wcu-card {
+    text-align: center;
+    background-color: #009ba2;
+    border-style: solid;
+    border-color: white;
+    width: 320px;
+    position: relative;
+    right: 40px;
+}
+
+.wcu-card01{
+    margin-right: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: left;
+    position: relative;
+    right: 40px;
+    top: 50px;
+   
+}
+
+.wcu-card02{
+    margin-right: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: left;
+    position: relative;
+    right: 40px;
+    top: 50px;
+}
+
+#wcu-card-image {
+    border-radius: 3%;
+}
+
+.wcu-card-title {
+    color: white;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.wcu-card-description {
+    color: white;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+#hospitalHeadings{
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-top: 10px;
+}
+.wcu-card-description1{
+    color: black;
+    font-size: 15px;
+    font-weight: 300;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.banner-section-bg-container2 {
+    background-image: url("./team-young-specialist-doctors-standing-corridor-hospital.jpg");
+    backdrop-filter: blur(5px);
+  
+    height: 100vh;
+    background-size: cover;
+}
+
+.doctosHeading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-left: 130px;
+    position: relative;
+    bottom: 180px;
+    width: 100vw;
+    color: white;
+}
+
+.menu-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+
+
+.menu-card-title {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 24px;
+}
+
+.menu-item-link {
+    color: #d0b200;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+.bt-container{
+    background-color: white;
+    background-size: cover;
+    margin-top: 50px;
+    margin-left: 90px;
+
+}
+.healthWheading{
+    color:black;
+    font-size: 25px;
+    font-style:bold;
+    margin-left: 50px;
+
+}
+.healthWparagraph{
+    color:black;
+    font-size: 18px;
+    margin-left: 50px;
+}
+.image-container{
+    width:20vw;
+    margin-left: 50px;
+}
+.image-dim{
+    width: 350px;
+    height: 250px;
+}
+.image-heading{
+    color:black;
+    font-size: 16px;
+}  
+.image-para{
+    color:black;
+    font-size: 12px;  
+}
+.green-container{
+    background-image: url("./doctor-nurses-special-equipment.jpg");
+    height: 100vh;
+    width:25vw;
+    height:60vh;
+    background-size: cover;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+.image3-para{
+    color: white;
+    font-size: 10 px;
+    text-align: center;
+}
+
+.hospitalSection {
+    background-color: #f2f2f2;
+    margin-top: 150px;
+}
+
+.hospitalSection-img {
+    width: 400px;
+    height: 450px;
+    position: relative;
+    bottom: 140px;
+}
+
+.hospitalSection-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.hospitalSection-description {
+    
+    font-family: "Roboto";
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.hospitalSection-description{
+    font-family: "Roboto";
+    font-size: 16px;
+}
+#hospitalSection{
+    position: relative;
+    bottom: 120px;
+}
+#hospitalSectionBtn{
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    background-color: #009ba2;
+    border: none;
+   
+}
+
+
+.footerInput{
+    border-radius: 50px;
+    border: #f9fbfe solid;
+}
